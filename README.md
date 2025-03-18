@@ -65,8 +65,8 @@ Para que la aplicación funcione, es necesario configurar Firebase:
  ```
 
 ## Funcionalidades del CRUD
--Crear tarea: Permite añadir nuevas tareas a la lista.
--Leer tareas: Muestra todas las tareas almacenadas en Firebase.
--Actualizar tarea: Permite editar una tarea existente.
--Eliminar tarea: Elimina una tarea de la base de datos.
+. Crear tarea: Permite añadir nuevas tareas a la lista.
+. Leer tareas: Muestra todas las tareas almacenadas en Firebase.
+. Actualizar tarea: Permite editar una tarea existente.
+. Eliminar tarea: Elimina una tarea de la base de datos.
 
