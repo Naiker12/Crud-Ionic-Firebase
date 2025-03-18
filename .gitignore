@@ -70,5 +70,5 @@ testem.log
 Thumbs.db
 
 
-/.environment.prod.ts
-/.environment.ts
+/environment.prod.ts
+/environment.ts
