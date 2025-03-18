@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>📝Lista de Tareas</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="openAddTaskModal()">➕ Agregar</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <app-task-search (searchEvent)="filterTasks($event)"></app-task-search>
+
+  <app-task-table [tasks]="filteredTasks"></app-task-table>
+  
+</ion-content>
+

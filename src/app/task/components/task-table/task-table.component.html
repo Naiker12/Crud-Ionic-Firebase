@@ -1,0 +1,21 @@
+<ion-list>
+  <ion-item *ngFor="let task of tasks">
+    <ion-label>
+      <h2>{{ task.title }}</h2>
+      <p>{{ task.description }}</p>
+      <p><strong>Fecha:</strong> {{ task.date }}</p>
+      <p>
+        <strong>Estado:</strong>
+        <span [style.color]="task.done ? 'green' : 'red'">
+          {{ task.done ? '✅ Completada' : '⏳ Pendiente' }}
+        </span>
+      </p>
+      <td>
+        <button (click)="editTask(task)">✏️ Editar</button>
+        <button *ngIf="task.id" (click)="confirmDelete(task.id)">🗑️ Eliminar</button>
+      </td>
+    </ion-label>
+  </ion-item>
+</ion-list>
+
+
